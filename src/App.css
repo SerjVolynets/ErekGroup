@@ -2,27 +2,21 @@
   text-align: center;
 }
 
-.Header {
-  display: flex;
-  justify-content: center;
-}
-.headerContainer {
-  display: flex;
-  width: 90%;
-  height: 90px;
-  text-align: center;
-  align-items: center;
-  /* justify-content: space-around; */
-}
-.headerInfoContainer {
-  display: flex;
-  /* justify-content: space-around; */
-  /* width: 100%; */
+.imageBlock {
+  position: relative;
 }
 
-.headerElementStyle {
-  justify-content: space-around;
-  flex-direction: row;
-  display: flex;
+.plate {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 30%;
+  height: 35%;
+  background-color: rgb(51, 51, 51, 0.6);
   align-items: center;
+}
+
+.textPlate {
+  color: white;
 }

@@ -1,0 +1,32 @@
+.Header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headerContainer {
+  display: flex;
+  height: 90px;
+  text-align: center;
+  align-items: center;
+}
+
+.headerInfoContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  align-items: center;
+}
+
+.logoStyle {
+  /* margin-left: auto; */
+  margin-right: 25%;
+  /* font-size:large; */
+  font-family: "Abril Fatface", cursive;
+}
+
+.headerElementStyle {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}

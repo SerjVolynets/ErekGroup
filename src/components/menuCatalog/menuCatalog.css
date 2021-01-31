@@ -1,0 +1,25 @@
+.catalogStyle {
+    display: flex;
+    height: 70px;
+    background-color: #333333;
+    justify-content: space-evenly;
+  }
+  
+  .catalogContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 70%;
+  }
+  .catalogElementContainer {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+  }
+  .catalogTextStyle {
+    color: white;
+    font-weight: bold;
+    font-size: 15;
+  }

@@ -1,29 +1,21 @@
-import logo from "./logo.svg";
 import "./App.css";
-import PhoneIphoneIcon from "@material-ui/icons/PhoneIphone";
-import MailOutlineIcon from "@material-ui/icons/MailOutline";
-import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import Header from "./components/header/header";
+import MenuCatalog from "./components/menuCatalog/menuCatalog";
+import toolsImg from "./img/tools.jpg";
 
 function App() {
   return (
     <div className="App">
-      <header className="Header">
-        <div className="headerInfoContainer">
-          <div className="headerContainer">
-            <div className="headerElementStyle">
-              <PhoneIphoneIcon /> <p>+8 800 555 34 55</p>
-            </div>
-            <div className="headerElementStyle">
-              <MailOutlineIcon /> <p>erek.group@gmail.com</p>
-            </div>
-            <div>EREK GROUP</div>
-          </div>
-          <div>
-            <ShoppingBasketIcon />
-          </div>
+      <Header />
+      <MenuCatalog />
+      <div className="imageBlock">
+        <img src={toolsImg} alt="Tools" width="100%" height="100%" />
+        <div className="plate">
+          <h1 className="textPlate">Воплощайте идеи</h1>
+          <h2 className="textPlate">Турецкое и русское катчество</h2>
+          <p className="textPlate"> Надежные инструменты для профессиональных работ</p>
         </div>
-      </header>
-      <div>content</div>
+      </div>
     </div>
   );
 }
