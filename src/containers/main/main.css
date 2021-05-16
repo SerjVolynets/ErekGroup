@@ -1,0 +1,74 @@
+.App {
+    text-align: center;
+  }
+  
+  .imageBlock {
+    position: relative;
+    height: 560px;
+  }
+  
+  .plate {
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    right: 0;
+    width: 40%;
+    height: 35%;
+    background-color: rgb(51, 51, 51, 0.8);
+    align-items: center;
+  }
+  
+  .textPlate {
+    color: white;
+    font-size: 1.5vw;
+  }
+  
+  .textInfo {
+    padding: 40px;
+    background-color: #777777;
+    height: 156px;
+  }
+  .textInfoBlock {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .textFont {
+    color: white;
+    font-size: 22px;
+  }
+  
+  .person {
+    height: 276px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #333333;
+    padding: 20px;
+  }
+  
+  .personBlock {
+    padding: 20px;
+    height: 70px;
+    width: 120px;
+  }
+  
+  .personTextColor {
+    color: white;
+  }
+  
+  .mapContainer {
+      height: 300px;
+      margin-bottom: 40px;
+  }
+  .map {
+    width: 100%;
+  }
+  
+  .addressContainer {
+    background-color: #fdd241;
+    padding: 10px;
+  }
+  .addressText {
+    margin: 0;
+  }

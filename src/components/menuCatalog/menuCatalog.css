@@ -18,6 +18,10 @@
     align-items: center;
     justify-content: center;
   }
+  .catalogElementContainer:hover {
+    background-color: black;
+    cursor: pointer;
+  }
   .catalogTextStyle {
     color: white;
     font-weight: bold;

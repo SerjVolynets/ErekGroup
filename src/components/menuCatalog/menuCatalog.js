@@ -1,28 +1,29 @@
 import "./menuCatalog.css";
+import { Link } from "react-router-dom";
 
 
 function menuCatalog() {
   return (
     <div className="catalogStyle">
       <div className="catalogContainer">
-        <div className="catalogElementContainer">
+        <Link className="catalogElementContainer" to={'/catalog'}>
           <p className="catalogTextStyle">Электротовары</p>
-        </div>
-        <div className="catalogElementContainer">
+        </Link>
+        <Link className="catalogElementContainer" to={'/catalog'}>
           <p className="catalogTextStyle">Интрументы</p>
-        </div>
-        <div className="catalogElementContainer">
+        </Link>
+        <Link className="catalogElementContainer" to={'/catalog'}>
           <p className="catalogTextStyle">Покрытия</p>
-        </div>
-        <div className="catalogElementContainer">
+        </Link>
+        <Link className="catalogElementContainer" to={'/catalog'}>
           <p className="catalogTextStyle">Строй материалы</p>
-        </div>
-        <div className="catalogElementContainer">
+        </Link>
+        <Link className="catalogElementContainer" to={'/catalog'}>
           <p className="catalogTextStyle">Краски</p>
-        </div>
-        <div className="catalogElementContainer">
+        </Link>
+        <Link className="catalogElementContainer" to={'/catalog'}>
           <p className="catalogTextStyle">Декор</p>
-        </div>
+        </Link>
       </div>
     </div>
   );

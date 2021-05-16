@@ -17,16 +17,18 @@
   align-items: center;
 }
 
+.logoStyle:active,
+.logoStyle:hover,
 .logoStyle {
-  /* margin-left: auto; */
   margin-right: 25%;
-  /* font-size:large; */
   font-family: "Abril Fatface", cursive;
+  text-decoration:none;
+  color:black;
 }
 
 .headerElementStyle {
   flex-direction: row;
   display: flex;
   align-items: center;
-  padding-left: 20px;
+  padding-left: 30px;
 }

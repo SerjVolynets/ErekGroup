@@ -27,7 +27,7 @@
 .textInfo {
   padding: 40px;
   background-color: #777777;
-  height: 176px;
+  height: 156px;
 }
 .textInfoBlock {
   padding-left: 20%;
@@ -36,4 +36,39 @@
 .textFont {
   color: white;
   font-size: 22px;
+}
+
+.person {
+  height: 276px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #333333;
+  padding: 20px;
+}
+
+.personBlock {
+  padding: 20px;
+  height: 70px;
+  width: 120px;
+}
+
+.personTextColor {
+  color: white;
+}
+
+.mapContainer {
+    height: 300px;
+    margin-bottom: 40px;
+}
+.map {
+  width: 100%;
+}
+
+.addressContainer {
+  background-color: #fdd241;
+  padding: 10px;
+}
+.addressText {
+  margin: 0;
 }
